@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Enigma - Start Gaming Without a Console</title>
+    <link rel="stylesheet" href="{% static 'enigma/css/index.css' %}">
+    <link rel="stylesheet" href="{% static 'enigma/css/nav.css' %}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav-box">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="/"><h2>ENIGMA</h2></a>
+                </div>
+                <div class="options">
+                    <div class="overview option">
+                        <a href="/"><p>Overview</p></a>
+                    </div>
+                    <div class="pricing option">
+                        <a href="/enigma-pricing"><p>Pricing</p></a>
+                    </div>
+                    <div class="contact option">
+                        <a href="#"><p>Contact Us</p></a>
+                    </div>
+                </div>
+                <div class="buy-now">
+                    <div class="price">
+                        <p id="smaller">$14.99/m</p>
+                    </div>
+                    <div class="button">
+                        <a href="/buy-enigma-platinum"><button>Buy</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="graber-box">
+        <div class="graber-container">
+            <div class="graber-content">
+                <div class="graber-left">
+                    <div class="sup-title">
+                        <p>Jump on, and start gaming</p>
+                    </div>
+                    <div class="reg-title">
+                        <h1>Introducing <span class="logo-name">ENIGMA</span> </br>A New Way to Game</h1>
+                    </div>
+                    <div class="learn-more">
+                        <a href="#"><p>Learn More</p></a>
+                    </div>
+                </div>
+                <div class="graber-right">
+                    <img src="{% static 'enigma/img/scuf.png' %}" alt="ENIGMA controller">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="desc-container">
+        <div class="desc-content">
+            <div class="desc-title" data-aos="fade-down" data-aos-duration="900">
+                <h1>Pick up the controller, and start gaming on any screen with ENIGMA</h1>
+            </div>
+            <div class="desc-desc" data-aos="fade-up" data-aos-duration="900">
+                <p>Why upgrade and waste money on you're system ever year. With ENIGMA you have the freedom
+                     of playing you're favorite games anywhere you are with a screen and Wi-Fi. Enjoy gaming without ever 
+                     worrying about downloads or updates ever again with up to 4k 60 FPS gameplay.
+                </p>
+            </div>
+            <div class="desc-pic" data-aos="zoom-out-up" data-aos-duration="900">
+                <img src="{% static 'enigma/img/desc-pic.png' %}" alt="Enigma Gaming">
+            </div>
+        </div>
+    </div>
+    <div class="more-desc-container">
+        <div class="more-desc-content">
+            <div class="more-desc-left">
+                <img src="{% static 'enigma/img/COD-character.png' %}" alt="">
+            </div>
+            <div class="more-desc-right">
+                <div class="right-1" data-aos="fade-left" data-aos-easing="ease" data-aos-duration="900">
+                    <div class="right-title">
+                        <h2>No Need to Wait</h2>
+                    </div>
+                    <div class="right-sub">
+                        <p>With one click you can instantly start playing. This means no more waiting to dowload the game after you buy it, or having to deal with updates. We take care of it all so you don't have too! </p>
+                    </div>
+                </div>
+                <div class="right-2" data-aos="fade-left" data-aos-easing="ease" data-aos-duration="1100">
+                    <div class="right-title">
+                        <h2>Play on Any Screen</h2>
+                    </div>
+                    <div class="right-sub">
+                        <p>Enjoy up to 4k 60 FPS on any screen that has access to Wi-Fi. With our upgraded server's comes low-latency gameplay, and 7.1 surround sound.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="{% static 'enigma/js/animation.js' %}"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

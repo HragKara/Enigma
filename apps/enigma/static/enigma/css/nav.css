@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-box{
+    padding: 15px;
+    -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
+    -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+}
+
+.nav-container{
+    padding: 0px 10px;
+    display: flex;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-content h2{
+    font-family: 'Audiowide', cursive !important;
+    font-size: 2.5rem;
+    color: #2b2b2bcf;
+}
+
+.nav-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.buy-now{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+#smaller{
+    font-size: 11px;
+    margin-right: 15px;
+    color: #2b2b2bcf;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.button button{
+    width: 100px;
+    height: 50px;
+    outline: none;
+    color: white;
+    font-size: 27px;
+    border-radius: 5px;
+    background-color: blue;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button :hover{
+    cursor: pointer;
+}
+
+.options{
+    font-family: 'Poppins', sans-serif !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
+.option{
+    margin: 0 30px;
+    color: #2b2b2bcf;
+}
+
+.option a{
+    color: #2b2b2bcf;
+}
+

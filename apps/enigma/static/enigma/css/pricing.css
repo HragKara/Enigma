@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+
+.page-title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    text-align: center;
+    padding: 60px 0 0px 0;
+}
+
+.page-title-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-title-content h1{
+    font-size: 54px;
+    background-image: -webkit-linear-gradient(107deg, #0fb8e3, #ff1d55);
+    color: #9b0063;
+    -webkit-background-clip: text;
+    font-weight: 600;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -1.95px;
+    margin: 0 auto;
+}
+
+.space{
+    margin: 25px auto;
+}
+
+.price-container{
+    padding: 50px 0;
+}
+
+.price-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.price-content h1{
+    font-size: 38px;
+    background-image: -webkit-linear-gradient(107deg, #ff1d55, #0fb8e3);
+    color: #9b0063;
+    -webkit-background-clip: text;
+    font-weight: 600;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -1.95px;
+    margin: 0 auto;
+}
+
+.get-update{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.update-input{
+    margin-top: 20px;
+}
+
+.update-title{
+    color: #807c7ccf;
+    font-size: 14px;
+}
+
+#input{
+    width: 500px;
+    height: 15px;
+    border: none;
+    border-bottom: 1px solid #e2e2e2e2;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+    color: #2b2b2bcf;
+}
+
+.details-container{
+    background: url('../img/battlefield.png');
+    height: 100%;
+    margin-top: 100px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-content{
+    display: flex;
+}
+
+.detail-box{
+    padding: 50px 60px;
+    background-color: #efefeffa;
+    border: none;
+    flex-basis: 50%;
+    margin: 0 50px;
+    color: #2b2b2bcf;
+}
+
+.detail-box p{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.plat{
+    border-top: 2px solid rgb(0, 166, 255);
+    border-bottom: 5px solid rgb(0, 166, 255);
+}
+
+.free{
+    border-top: 2px solid gray;
+    border-bottom: 5px solid gray;
+}
+
+#pop{
+    background-image: -webkit-linear-gradient(107deg, #ff1d55, #0fb8e3);
+    color: #9b0063;
+    -webkit-background-clip: text;
+    font-weight: 600;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.95px;
+    margin: 0 auto;
+}
+
+#perk-buy{
+    padding: 10px 30px;
+    font-size: 14px;
+    background-color: #00a6ff;
+    border-radius: 5px;
+    color: #464545;
+    border: 1px solid #50505050;
+    text-transform: uppercase;
+    outline: none;
+}
+
+#perk-buy:hover{
+    cursor: pointer;
+}

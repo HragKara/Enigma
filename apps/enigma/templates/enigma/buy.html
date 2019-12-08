@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Buy Enigma | $14.99</title>
+    <link rel="stylesheet" href="{% static 'enigma/css/nav.css' %}">
+    <link rel="stylesheet" href="{% static 'enigma/css/buy.css' %}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav-box">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="/"><h2>ENIGMA</h2></a>
+                </div>
+                <div class="options">
+                    <div class="overview option">
+                        <a href="/"><p>Overview</p></a>
+                    </div>
+                    <div class="pricing option">
+                        <a href="/enigma-pricing"><p>Pricing</p></a>
+                    </div>
+                    <div class="contact option">
+                        <a href="#"><p>Contact Us</p></a>
+                    </div>
+                </div>
+                <div class="buy-now">
+                    <div class="price">
+                        <p id="smaller">$14.99/m</p>
+                    </div>
+                    <div class="button">
+                        <a href="/buy-enigma-platinum"><button>Buy</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mid-container">
+        <div class="mid-content">
+            <div class="controller-img">
+                <img src="{% static 'enigma/img/scuf.png' %}" alt="Controllers">
+            </div>
+            <div class="details">
+                <div class="detail-title">
+                    <p>ENIGMA <span id="pop">Platinum</span></p>
+                </div>
+                <div class="detail-desc">
+                    <p>$14.99 / month</p>
+                </div>
+                <div class="perks">
+                    <p>Includes free games every month</p>
+                </div>
+                <div class="buy-button">
+                    <button id="buy">Buy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

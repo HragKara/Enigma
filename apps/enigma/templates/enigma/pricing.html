@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Enigma - Pricing</title>
+    <link rel="stylesheet" href="{% static 'enigma/css/nav.css' %}">
+    <link rel="stylesheet" href="{% static 'enigma/css/pricing.css' %}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav-box">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="/"><h2>ENIGMA</h2></a>
+                </div>
+                <div class="options">
+                    <div class="overview option">
+                        <a href="/"><p>Overview</p></a>
+                    </div>
+                    <div class="pricing option">
+                        <a href="enigma-pricing"><p>Pricing</p></a>
+                    </div>
+                    <div class="contact option">
+                        <a href="#"><p>Contact Us</p></a>
+                    </div>
+                </div>
+                <div class="buy-now">
+                    <div class="price">
+                        <p id="smaller">$14.99/m</p>
+                    </div>
+                    <div class="button">
+                        <a href="/buy-enigma-platinum"><button>Buy</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-title-container">
+        <div class="page-title-content">
+            <h1>ENIGMA Platinum </br> Only $14.99 / month</h1>
+            <div class="buy-now space">
+                <div class="button">
+                    <a href="/buy-enigma-platinum"><button>Buy</button></a>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <div class="price-container">
+        <div class="price-content">
+            <h1>ENIGMA Free Tier </br> Comming Spring 2020</h1>
+        </div>
+        <div class="get-update">
+            <div class="update-title">
+                <h3>Enter Email to Recieve Updates</h3>
+            </div>
+            <div class="update-input">
+                <input type="email" id="input" placeholder="Enter Email">
+            </div>
+        </div>
+    </div>
+    <div class="details-container">
+        <div class="details-content">
+            <div class="plat detail-box">
+                <div class="box-title">
+                    <h2>ENIGMA <span id="pop">Platinum</span></h2>
+                </div>
+                <div class="perks">
+                    <p>$14.99 / month</p>
+                    <p>Resolution up to 4k on TVs, and 1080p on PC monitors or tablets</p>
+                    <p>Framerate: 144FPS</p>
+                    <p>Low Latency</p>
+                    <p>Audio: 7.1 Surrond Sound</p>
+                    <p>Free Games Monthly</p>
+                    <p>Discount's on Games</p>
+                </div>
+                <div class="buy-button">
+                    <a href="/buy-enigma-platinum"><button id="perk-buy">Buy</button></a>
+                </div>
+            </div>
+            <div class="free detail-box">
+                <div class="box-title">
+                    <h2>ENIGMA Free Tier</h2>
+                    <p>Free - Spring 2020</p>
+                </div>
+                <div class="perks">
+                    <p>Resolution: 1080p</p>
+                    <p>Framerate: 60FPS</p>
+                    <p>Low Latency</p>
+                    <p>Audio: 5.1 Surround Sound</p>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
